@@ -4,14 +4,14 @@ function Conectarse()
 	
 	$host="localhost";
 	
-	if($_SERVER["SERVER_NAME"] == "nogui.micrositio.mx"){
+	if($_SERVER["SERVER_NAME"] == "dvj.micrositio.mx"){
 		
-		$db="microsit_nogui";
+		$db="microsit_dvj";
 		$usuario="microsit_practic";
 		$pass="UAEH@2018";
 	}
 	else{
-		$db="nogui";
+		$db="dvj";
 		$usuario="sistemas";
 		$pass="Glifom3dia";
 		$set_local = "SET time_zone = '-05:00'";
