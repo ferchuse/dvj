@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+/* ---------- "Contenedores" ---------- */
+
+.carta {
+    width: 32.4cm; 
+    height: 41.925cm;
+    margin: auto;
+}
+
+.nota {
+    width: inherit;
+    height: 20.85cm;
+    margin: auto;
+}
+
+.contenido {
+    width: 30.525cm;
+    height: 18.3cm;
+    margin-left: 10.5mm;
+    margin-right: 8.25mm;
+    margin-top: 1.65cm;
+    margin-bottom: 9mm;
+}
+
+.datos {
+    margin-top: 1.5mm;
+}
+/* ---------- Clases "Width" ---------- */
+
+.w-full {
+    width: inherit;
+}
+
+.w-half {
+    width: 50%;
+}
+
+.w-one {
+    width: 6.6cm;
+}
+
+.w-two {
+    width: 19.5cm;
+}
+
+.w-three {
+    width: 10.125cm;
+}
+
+.w-four {
+    width: 4.425cm;
+}
+
+.w-five {
+    width: 15.9cm;
+}
+
+/* ---------- Clases "Height" ---------- */
+
+.h-full {
+    height: inherit;
+}
+
+.h-half {
+    height: 50%;
+}
+
+.h-tenth {
+    height: 10%;
+}
+
+.h-one {
+    height: 1.95cm;
+}
+
+.h-two {
+    height: 11.025cm;
+}
+
+.h-three {
+    height: 2.925cm;
+}
+
+.h-four {
+    height: 1.2cm;
+}
+
+.h-five {
+    height: 9.75cm;
+}
+
+.h-six {
+    height: .975cm;
+}
+
+/* ---------- Clases "Border" ---------- */
+
+.border-black {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    border: none;
+}
+
+.border-grey {
+    border: 1px;
+    border-style: solid;
+    border-color: grey;
+    border: none;
+}
+
+.border-orange {
+    border: 1px;
+    border-style: dashed;
+    border-color: orangered;
+    border: none;
+}
+
+.border-green {
+    border: 1px;
+    border-style: dashed;
+    border-color: green;
+    border: none;
+}
+
+.border-purple {
+    border: 1px;
+    border-style: dashed;
+    border-color: purple;
+    border: none;
+}
+
+.border-none {
+    border: none;
+}
+
+.border-t-none {
+    border-top: none;
+}
+
+.border-b-none {
+    border-bottom: none;
+}
+
+.border-l-none {
+    border-left: none;
+}
+
+.border-r-none {
+    border-right: none;
+}
+
+/* ---------- Clases "Background" ---------- */
+
+.bg-mark {
+    background-color: #fcf8e3;
+}
+
+/* ---------- Clases "Margin" ---------- */
+
+.margin-top{
+    margin-top: 3mm;
+}

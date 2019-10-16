@@ -1,0 +1,137 @@
+/* ----- "Contenedores" ----- */
+
+.tarjetas {
+    height: 200px;
+}
+
+.logo,
+.datos {
+    height: 100%;
+    border: 1px;
+    border-style: dashed;
+    border-color: grey
+}
+
+.logo img {
+    width: inherit;
+}
+
+.etiqueta .row {
+    background: #e9ffdf;
+    border: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #b8ff9c
+}
+
+.etiqueta .producto {
+    height: auto;
+    max-height: 70%;
+    color: #014b13;
+    font-size: 14px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+
+.cantidad {
+    color: grey;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.precio {
+    color: green;   
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+    border: 1px;
+    border-radius: 5px;
+    background: white;
+    overflow: hidden;
+}
+
+/* ----- "Clases: Height" ----- */
+
+.h-full {
+    height: 100%;
+}
+
+.h-fifth {
+    height: 20%;
+}
+
+.h-quarter {
+    height: 25%;
+}
+
+.h-thirty {
+    height: 30%;
+}
+
+.h-forty {
+    height: 40%;
+}
+
+.h-half {
+    height: 50%;
+}
+
+.h-sixty {
+    height: 60%;
+}
+
+.h-seventy {
+    height: 70%;
+}
+
+.h-eighty {
+    height: 80%;
+}
+
+.h-ninety {
+    height: 90%;
+}
+
+/* ----- "Clases: Width" ----- */
+
+w-full {
+    width: 100%;
+}
+
+w-half {
+    width: 50%;
+}
+
+/* ----- "Clases: Background" ----- */
+
+.bg-mark {
+    background: #fcf8e3
+}
+
+/* ----- "Clases: Border" ----- */
+
+.border-grey {
+    border: 1px;
+    border-style: solid;
+    border-color: grey;
+}
+
+.border-green {
+    border: 1px;
+    border-style: dashed;
+    border-color: green;
+}
+
+.border-purple {
+    border: 1px;
+    border-style: dashed;
+    border-color: purple;
+}
+
+/* ----- "Clases: Text" ----- */
+
+.text-orange {
+    color: orangered;
+}
